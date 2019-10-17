@@ -2,8 +2,5 @@
 ---
 inspecode:
   android-lint:
-    options:
-      --debug
-      --scan
     thresholds:
       num-issues: 1000
