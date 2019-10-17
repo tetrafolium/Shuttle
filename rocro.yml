@@ -1,4 +1,9 @@
 # tractrix/codelift-plugins#1308
 ---
 inspecode:
-  android-lint: default
+  android-lint:
+    options:
+      --debug
+      --scan
+    thresholds:
+      num-issues: 1000
